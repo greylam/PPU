@@ -1,0 +1,593 @@
+
+.f-dropdown {
+    max-width: none;
+    width: auto;
+}
+.header {
+    color: #4D4D4D;
+    font-size: 1.875em;
+    font-weight: 200;
+}
+.user-button {
+    padding-top: 0;
+}
+.stepic-top-bar .bread {
+    float: left;
+    width: 100%;
+}
+.stepic-top-bar .bread ul {
+    margin-top: 1.4375em;
+    padding-left: 0.625em;
+    padding-right: 4.375em;
+}
+.stepic-top-bar .bread ul li {
+    display: inline;
+    list-style-type: none;
+    padding-left: 20px;
+}
+.stepic-top-bar .bread ul li a {
+    color: #4D4D4D;
+    font-size: 1.875em;
+    font-weight: 200;
+}
+body {
+    background-color: #F4F4F4;
+    padding-bottom: 20px;
+}
+html {
+    background-color: #F4F4F4;
+}
+button, .button {
+    background-color: #666666;
+    border: 0 none !important;
+    box-shadow: none !important;
+    color: #CCCCCC;
+    margin: 0;
+    outline: 0 none;
+}
+button:hover, button:active, button:focus, .button:hover, .button:active, .button:focus {
+    background-color: #666666;
+}
+.panel {
+    background-color: #F4F4F4 !important;
+    border-width: 0 !important;
+}
+.pane {
+    position: relative;
+}
+.pane .icons {
+    position: absolute;
+    right: 10px;
+    text-align: right;
+    top: 10px;
+}
+.pane .icons i {
+    opacity: 0.5;
+}
+.pane .icons i:hover {
+    opacity: 1;
+}
+.pane .icons .icon-remove {
+    color: #C60F13;
+}
+#player {
+    overflow: hidden;
+}
+.lesson-navbar {
+    margin-right: 30px;
+    margin-top: 30px;
+    max-width: 300px;
+}
+.lesson-navbar ol li.lesson-current {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+.lesson-player {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    min-width: 700px;
+    text-align: center;
+}
+.actions {
+    margin: 10px auto;
+    text-align: center;
+}
+.lesson-panel {
+    margin-left: auto;
+    margin-right: auto;
+    min-width: 700px;
+}
+.add-new-material-dropdown {
+    padding-right: 1.25em;
+    text-align: right;
+}
+ul#items {
+    list-style-type: none;
+    margin: 0;
+}
+ul#items a.error {
+    font-size: 1.4em;
+}
+ul#items legend {
+    background-color: inherit;
+    cursor: pointer;
+}
+ul#items li {
+    background-color: #F4F4F4;
+    list-style-type: none;
+}
+ul#items .status-error fieldset {
+    background-color: #F1ADAD;
+}
+ul#items .status-error fieldset legend {
+    color: #C60F13;
+}
+ul#items .status-preparing legend {
+    color: #FF6C3C;
+}
+.item {
+    position: relative;
+}
+.item i {
+    cursor: pointer;
+    opacity: 0.5;
+    position: absolute;
+}
+.item i:hover {
+    opacity: 1;
+}
+.item i.icon-eye {
+    right: 4.25em;
+    top: 1.25em;
+}
+.item i.rearrange-step {
+    font-style: normal;
+    right: 2.375em;
+    top: 1em;
+}
+.item i.icon-remove {
+    color: #C60F13;
+    right: 0.5em;
+    top: 1.25em;
+}
+.item fieldset {
+    min-width: 0;
+}
+.lesson-help {
+    text-align: center;
+}
+.lesson-help a {
+    margin-bottom: 10px;
+}
+#preview, .attachment-preview {
+    margin-left: -380px;
+    width: 760px;
+}
+#preview .slide-wrapper, .attachment-preview .slide-wrapper {
+    position: relative;
+}
+#preview .slide-wrapper .slide-view, .attachment-preview .slide-wrapper .slide-view {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #666666;
+    color: #1F0909;
+    font-size: 14px;
+    height: 50em;
+    overflow: hidden;
+    padding: 1em;
+    width: 50em;
+}
+#preview .slide-wrapper .icons, .attachment-preview .slide-wrapper .icons {
+    position: absolute;
+    right: -20px;
+    text-align: right;
+    top: -20px;
+}
+#preview .slide-wrapper .icons i, .attachment-preview .slide-wrapper .icons i {
+    cursor: pointer;
+    opacity: 0.5;
+}
+#preview .slide-wrapper .icons i:hover, .attachment-preview .slide-wrapper .icons i:hover {
+    opacity: 1;
+}
+.attachment-preview {
+    margin-left: -760px;
+}
+.attachment-preview img {
+    max-width: none;
+}
+.socialaccount_providers {
+    list-style: none outside none;
+}
+.socialaccount_provider_icon {
+    font-size: 6em;
+    position: relative;
+    top: 0;
+}
+.socialaccount_provider_icon:hover {
+    top: -0.1em;
+}
+.socialaccount_provider_icon.icon-github {
+    color: #000000;
+}
+.socialaccount_provider_icon.icon-facebook {
+    color: #335795;
+}
+.socialaccount_provider_icon.icon-twitter {
+    color: #9AE4E8;
+}
+.socialaccount_provider_icon.icon-google {
+    color: #D34836;
+}
+.CodeMirror {
+    -moz-box-sizing: border-box;
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset;
+    color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-family: monospace;
+    font-size: 13px;
+    height: auto;
+    margin: 0 0 1em;
+    padding: 0.5em;
+    transition: box-shadow 0.45s ease 0s, border-color 0.45s ease-in-out 0s;
+    width: 100%;
+}
+.CodeMirror:focus {
+    border-color: #999999;
+    box-shadow: 0 0 5px #999999;
+}
+.CodeMirror:focus {
+    background: none repeat scroll 0 0 #FAFAFA;
+    border-color: #999999;
+    outline: 0 none;
+}
+.CodeMirror[disabled] {
+    background-color: #DDDDDD;
+}
+.CodeMirror-scroll {
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.attachment-list .attachment-collection {
+    display: inline;
+}
+.attachment-list .attachment-item {
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+    width: 7.5em;
+}
+.attachment-list .attachment-item .name {
+    display: block;
+    font-size: 0.6875em;
+    margin-bottom: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.attachment-list .attachment-item .th {
+    display: block;
+    line-height: 6.25em;
+}
+.attachment-list .attachment-item .th img {
+    margin: auto;
+    max-height: 6.25em;
+    max-width: 6.25em;
+    vertical-align: middle;
+}
+.attachment-list .attachment-item .button {
+    margin: 5px 0;
+}
+.attachment-list .attachment-item i.icon-remove {
+    color: #C60F13;
+}
+.attachment-list .attachment-upload .th {
+    position: relative;
+}
+.attachment-list .attachment-upload .th .drop-zone {
+    height: 6.25em;
+    margin: auto;
+    vertical-align: middle;
+    width: 6.25em;
+}
+.attachment-list .attachment-upload .th .drop-zone span {
+    font-size: 0.8125em;
+}
+.attachment-list .attachment-upload .th input {
+    border: 0 none;
+    height: 0;
+    left: 0;
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+    z-index: -1;
+}
+.user-profile__avatar-image {
+    margin-right: 1em;
+}
+.user-profile__avatar {
+    padding-left: 0;
+}
+.user-profile__subheader {
+    margin: 0;
+}
+.user-profile__slide {
+    background-color: #FFFFFF;
+    display: inline-block;
+    height: 0.9375em;
+    margin-right: 1px;
+    width: 0.9375em;
+}
+.user-profile__slide.passed {
+    background-color: #00A6AA;
+}
+.user-profile__slide.passed.not {
+    background-color: #FFFFFF;
+}
+.user-profile__details {
+    margin-left: 1.5625em;
+}
+.user-profile__lesson-progress {
+    margin-top: 0.625em;
+}
+.user-profile__lesson-progress .room-row {
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+}
+.user-profile__lesson-progress .room-row .room-card {
+    background-color: #24C5C7;
+    float: left;
+    height: 1.5em;
+    overflow: hidden;
+    position: absolute;
+    width: 1.5em;
+}
+.user-profile__lesson-progress .room-row .room-card .room-percentage {
+    bottom: 0;
+    color: #FFFFFF;
+    font-size: 0.5em;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.user-profile__lesson-progress .room-row .room-card .room-passed {
+    background-color: #60BF81;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+}
+.user-profile__lesson-progress .room-row span {
+    padding-left: 2em;
+}
+.user-profile__lesson-progress .room-row span a {
+    color: #222222;
+}
+img.gravatar {
+    height: 80px;
+    width: 80px;
+}
+.history-material-dropdown {
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.tiles {
+    margin: 1em 0;
+}
+.tiles.isotope .tile {
+    opacity: 1;
+}
+.tiles .tile {
+    display: inline-block;
+    margin: 0 0.625em 0.625em 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0.5em;
+    transition: opacity 0.3s ease 0.3s;
+}
+.tiles .tile .tile_link {
+    display: table;
+    height: 100%;
+}
+.tiles .tile .tile_link .triangle {
+    height: 0;
+    opacity: 0.2;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0;
+}
+.tiles .tile .tile_link .title {
+    color: #FFFFFF;
+    height: 25%;
+    padding-left: 1em;
+    padding-top: 0.3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 25%;
+}
+.tiles .tile .tile_link .trophy {
+    color: #FFFFFF;
+    left: 0;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    position: absolute;
+    text-align: center;
+    top: 0;
+}
+.tiles .tile .tile_link .name-wrp {
+    display: table-row;
+    height: 100%;
+    text-align: left;
+}
+.tiles .tile .tile_link .name-wrp .name {
+    color: #FFFFFF;
+    display: table-cell;
+    vertical-align: middle;
+    width: 14.875em;
+}
+.tiles .tile.tiny {
+    height: 7.125em;
+    width: 7.125em;
+}
+.tiles .tile.tiny .title, .tiles .tile.tiny .trophy {
+    font-size: 0.75em;
+}
+.tiles .tile.tiny .name {
+    font-size: 0.75em;
+    padding-left: 0.625em;
+    padding-right: 0.625em;
+}
+.tiles .tile.tiny .triangle {
+    border-color: #FFFFFF #FFFFFF transparent transparent;
+    border-left: 0.9375em solid transparent;
+    border-style: solid;
+    border-width: 0.9375em;
+}
+.tiles .tile.large {
+    height: 14.875em;
+    width: 14.875em;
+}
+.tiles .tile.large .title, .tiles .tile.large .trophy {
+    font-size: 1.5em;
+}
+.tiles .tile.large .name {
+    font-size: 1.5em;
+    padding-left: 1.25em;
+    padding-right: 1.25em;
+}
+.tiles .tile.large .triangle {
+    border-color: #FFFFFF #FFFFFF transparent transparent;
+    border-left: 1.875em solid transparent;
+    border-style: solid;
+    border-width: 1.875em;
+}
+.tiles .tile:hover .icons {
+    opacity: 1;
+}
+.tiles .tile .icons {
+    bottom: 10px;
+    opacity: 0;
+    position: absolute;
+    right: 5px;
+    text-align: right;
+    transition: opacity 0.3s ease 0s;
+}
+.tiles .tile .icons i {
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.tiles .tile .icons i:hover {
+    opacity: 1;
+}
+.tiles .tile .icons .icon-remove {
+    color: #C60F13;
+    margin-left: 5px;
+}
+.ellipsis {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.LTQ-box {
+    margin-top: -57px;
+}
+.comments {
+    font-size: 0.8125em;
+}
+.comments .comment {
+    margin-bottom: 5px;
+}
+.comments .comment .user {
+    font-weight: 700;
+}
+.comments .reply {
+    font-style: italic;
+}
+.isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope, .isotope .isotope-item {
+    transition-duration: 0.8s;
+}
+.isotope {
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    transition-property: transform, opacity;
+}
+.isotope.no-transition, .isotope.no-transition .isotope-item, .isotope .isotope-item.no-transition {
+    transition-duration: 0s;
+}
+.invitations, .members {
+    width: 100%;
+}
+.invitations .empty, .members .empty {
+    font-style: italic;
+    text-align: center;
+}
+.invitations .num, .members .num {
+    text-align: center;
+    width: 2.5em;
+}
+.invitations i, .members i {
+    color: #222222;
+    margin: 0 5px;
+}
+.invitations i.icon-checkbox-checked, .members i.icon-checkbox-checked {
+    color: #5DA423;
+}
+.invitations i.icon-warning, .invitations i.icon-checkbox-unchecked, .invitations i.icon-remove, .members i.icon-warning, .members i.icon-checkbox-unchecked, .members i.icon-remove {
+    color: #C60F13;
+}
+.invitations .actions, .members .actions {
+    text-align: center;
+}
+.invitations .enrollments {
+    text-align: center;
+}
+.invitations .actions {
+    width: 7.5em;
+}
+.members .actions {
+    width: 5.9375em;
+}
+.sign-in-triangle, .sign-in-title, .profile-triangle, .profile-title {
+    height: 100px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 130px;
+}
+.sign-in-title, .profile-title {
+    color: #FFFFFF;
+    font-weight: 700;
+    padding-right: 7px;
+    padding-top: 17px;
+    text-align: right;
+}
+.sign-in-triangle {
+    border-color: #99CCFF #99CCFF transparent transparent;
+    border-left: 50px solid transparent;
+    border-style: solid;
+    border-width: 50px;
+}
+.profile-triangle {
+    border-color: #60BF81 #60BF81 transparent transparent;
+    border-left: 50px solid transparent;
+    border-style: solid;
+    border-width: 50px;
+}
