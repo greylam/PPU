@@ -1,0 +1,222 @@
+
+#t_options {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-radius: 0 0 6px 0;
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+    font-family: 'Open Sans',arial,sans-serif;
+    font-size: 11px;
+    left: -230px;
+    position: fixed;
+    top: 50px;
+    width: 230px;
+    z-index: 5000;
+}
+#t_options input {
+    width: 60px;
+}
+#t_options .col {
+    margin: 0 10px;
+    width: 50px;
+}
+.colorpicker {
+    z-index: 5001;
+}
+.options_inner {
+    height: 100%;
+    position: relative;
+    width: 100%;
+}
+.options_box {
+    margin: 0 14px;
+    overflow: hidden;
+    padding: 10px 0 20px;
+}
+.options_box .solidline {
+    margin-bottom: 10px;
+}
+.options_box h6 {
+    font-weight: bold;
+    text-align: center;
+}
+.options_box .full {
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 100%;
+}
+.options_box .halfcol {
+    float: left;
+    margin: 0 5px;
+    width: 90px;
+}
+.options_box .fourcol {
+    float: left;
+    margin: 0 5px;
+    width: 15px;
+}
+.options_box .fourcol.color a {
+    display: block;
+    height: 15px;
+    margin-bottom: 5px;
+    width: 15px;
+}
+.options_box .halfcol .wideboxed h6 {
+    font-size: 11px;
+    font-weight: 600;
+}
+.options_toggle_holder {
+    position: absolute;
+    right: -40px;
+}
+.options_toggle {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #DDDDDD #DDDDDD #DDDDDD -moz-use-text-color;
+    border-image: none;
+    border-radius: 0 6px 6px 0;
+    border-style: solid solid solid none;
+    border-width: 1px 1px 1px medium;
+    cursor: pointer;
+    display: block;
+    height: 40px;
+    margin: 6px 0 0 4px;
+    width: 40px;
+}
+.options_toggle span .icon {
+    display: block;
+    margin: -10px 0 0 -10px;
+}
+.options_toggle:hover, .options_toggle:focus, .options_toggle:active {
+    outline: 0 none;
+    text-decoration: none;
+}
+.options_heading {
+    border-bottom: 1px dotted #EEEEEE;
+    color: #513847;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    padding-bottom: 6px;
+    text-transform: uppercase;
+}
+.options_box a.t_default {
+    background: none repeat scroll 0 0 #EF5523;
+}
+.options_box a.t_skin1 {
+    background: none repeat scroll 0 0 #318FD0;
+}
+.options_box a.t_skin2 {
+    background: none repeat scroll 0 0 #B345D3;
+}
+.options_box a.t_skin3 {
+    background: none repeat scroll 0 0 #00AD6A;
+}
+.options_box a.t_skin4 {
+    background: none repeat scroll 0 0 #00B2D8;
+}
+.options_box a.t_skin5 {
+    background: none repeat scroll 0 0 #AE7E51;
+}
+.options_box a.t_skin6 {
+    background: none repeat scroll 0 0 #7497BD;
+}
+.options_box a.t_skin7 {
+    background: none repeat scroll 0 0 #9BAE51;
+}
+.options_box a.t_skin8 {
+    background: none repeat scroll 0 0 #9C5B7B;
+}
+.options_box a.t_skin9 {
+    background: none repeat scroll 0 0 #EE8F08;
+}
+.options_box a.t_skin10 {
+    background: none repeat scroll 0 0 #E500C7;
+}
+.options_box a.t_skin11 {
+    background: none repeat scroll 0 0 #F72186;
+}
+.options_box a.t_skin12 {
+    background: none repeat scroll 0 0 #F57E3D;
+}
+.options_box a.t_skin13 {
+    background: none repeat scroll 0 0 #F53D3D;
+}
+.options_box a.t_skin14 {
+    background: none repeat scroll 0 0 #69C956;
+}
+.options_box a.t_skin15 {
+    background: none repeat scroll 0 0 #58B39F;
+}
+.options_box a.t_skin16 {
+    background: none repeat scroll 0 0 #5EB1C3;
+}
+.options_box a.t_skin17 {
+    background: none repeat scroll 0 0 #BDBC04;
+}
+.options_box a.t_skin18 {
+    background: none repeat scroll 0 0 #DC702F;
+}
+.options_box a.t_skin19 {
+    background: none repeat scroll 0 0 #3F7AC4;
+}
+.options_box a.t_skin20 {
+    background: none repeat scroll 0 0 #A3C43F;
+}
+.bgr .bg {
+    border: 1px solid #E6E6E6;
+    height: 28px;
+    width: 28px;
+}
+.bgr .bg.bg1 {
+    background: url("../img/bodybg/bg1.jpg") repeat scroll left top transparent;
+}
+.bgr .bg.bg2 {
+    background: url("../img/bodybg/bg2.png") repeat scroll left top transparent;
+}
+.bgr .bg.bg3 {
+    background: url("../img/bodybg/bg3.jpg") repeat scroll left top transparent;
+}
+.bgr .bg.bg4 {
+    background: url("../img/bodybg/bg4.png") repeat scroll left top transparent;
+}
+.bgr .bg.bg5 {
+    background: url("../img/bodybg/bg5.png") repeat scroll left top transparent;
+}
+.bgr .bg.bg6 {
+    background: url("../img/bodybg/bg6.png") repeat scroll left top transparent;
+}
+.bgr .bg.bg7 {
+    background: url("../img/bodybg/bg7.png") repeat scroll left top transparent;
+}
+
+.bgr .bg.bg8 {
+    background: url("../img/bodybg/bg8.png") repeat scroll left top transparent;
+}
+.bgr .bg.bg9 {
+    background: url("../img/bodybg/bg9.png") repeat scroll left top transparent;
+}
+.bgr .bg.bg10 {
+    background: url("../img/bodybg/bg10.png") repeat scroll left top transparent;
+}
+#accent_color {
+    background: none repeat scroll 0 0 #EF5523;
+    border: medium none;
+    color: #FFFFFF;
+    margin-left: 2px;
+    outline: 0 none;
+    text-align: center;
+    text-transform: uppercase;
+}
+#bodybg_color {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border: medium none;
+    color: #FFFFFF;
+    margin-left: 2px;
+    outline: 0 none;
+    text-align: center;
+    text-transform: uppercase;
+}

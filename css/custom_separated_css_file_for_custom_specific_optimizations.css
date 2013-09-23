@@ -1,0 +1,105 @@
+
+.readmore_link i {
+    font-size: 12px;
+    margin-left: 3px;
+}
+.recent_comments li:before, .widget_recent_comments ul li:before {
+    margin-right: 6px;
+}
+#recentcomments li a.url {
+    color: #666666;
+    font-size: 10px;
+    font-weight: lighter !important;
+    text-transform: uppercase;
+}
+#recentcomments li a.url:hover {
+    color: #F15A23;
+}
+.embed-container iframe {
+    display: block;
+}
+.flex_caption .flex_caption_title h4 {
+    padding-bottom: 0;
+}
+.flex_caption_title .subheader {
+    margin-top: 0;
+}
+footer {
+    color: #888888;
+    font-size: 12px;
+    line-height: 20px;
+}
+footer ul.contact_info li i {
+    top: 3px;
+}
+footer ul.flickr_widget li a img {
+    border: 1px solid #CCCCCC;
+    width: 42px;
+}
+footer ul.flickr_widget li a:before {
+    height: 34px;
+    line-height: 33px;
+    width: 34px;
+}
+footer .twitter_widget .tweet_list li {
+    border-bottom: medium none;
+    margin-bottom: 15px;
+    padding: 0 0 0 23px;
+}
+footer .twitter_widget .tweet_list li:first-child {
+    border-top: medium none;
+}
+footer .twitter_widget .tweet_list li:before {
+    font-size: 13px;
+    top: 2px;
+}
+footer .twitter_widget .tweet_list .tweet_avatar {
+    margin-bottom: 4px;
+    margin-right: 8px;
+    top: 5px;
+}
+footer .social_icons li {
+    background-color: #FFFFFF;
+}
+footer .social_icons li a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+footer ul.tags li a {
+    color: #888888;
+}
+footer ul.tags li a {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+footer ul.tags li a:before {
+    background: none repeat scroll 0 0 #EEEEEE;
+}
+footer ul.tags li a span {
+}
+
+footer ul.tags li a:hover {
+    background: none repeat scroll 0 0 #EEEEEE;
+    color: #F15A23;
+}
+footer ul.tags li a:hover:before {
+    background: none repeat scroll 0 0 #FFFFFF;
+}
+a#logo img {
+    margin-bottom: 9px;
+    margin-top: 12px;
+}
+.footer_logo img {
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+#copyright_message strong {
+    color: #444444;
+    display: block;
+}
+ul.portfolio_items_container {
+    width: auto;
+}
+@media only screen and (max-width: 767px) {
+ul.portfolio_items_container {
+    width: auto !important;
+}
+}

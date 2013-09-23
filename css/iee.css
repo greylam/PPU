@@ -1,0 +1,57 @@
+
+.ie8 #menu ul {
+    border-bottom: 1px solid #F1F1F1;
+    border-left: 1px solid #F1F1F1;
+    border-right: 1px solid #F1F1F1;
+}
+.ie8 .flex_caption {
+    width: 100%;
+}
+.ie8 .flex_caption_content, p.simple_flex_caption {
+    background: none repeat scroll 0 0 #444444;
+}
+.ie8 .post_info {
+    margin-top: 7px;
+}
+.ie8 .post_info a {
+    margin-bottom: 1px;
+}
+.ie8 .blog2 .post_info {
+    margin-top: -17px;
+}
+.ie8 .blog3 .post_info a.post_format, .ie8 .blog5 .post_info a.post_format, .ie8 .blog6 .post_info a.post_format, .ie8 .blog10 .post_info a.post_format {
+    left: 71px;
+}
+.ie8 .small_blog.blog9 .post_info, .ie8 .small_blog.blog11 .post_info {
+    margin-top: 0;
+}
+.ie8 .single_post_column .post_info {
+    height: 85px;
+}
+.ie8 .single_post_column .post_info a.post_format {
+    margin-bottom: 1px;
+}
+.ie8 ul.flickr_widget li {
+    height: 49px;
+    width: 49px;
+}
+.ie8 ul.flickr_widget li a img {
+    height: 49px;
+    width: 49px;
+}
+.ie8 footer ul.flickr_widget li {
+    height: 49px;
+    width: 49px;
+}
+.ie8 footer ul.flickr_widget li a img {
+    height: 49px;
+    width: 49px;
+}
+.ie8 ul.flickr_widget li a:before {
+    display: none;
+}
+.ie8 .portfolio_item1 a.preview {
+    right: 50px;
+}
+.ie8 .single_testmonial_style2 p:before {
+}

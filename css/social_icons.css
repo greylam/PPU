@@ -1,0 +1,335 @@
+
+.social_icons {
+    display: block;
+    font-size: 0;
+    line-height: 0;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+.social_icons li, span.social_icons {
+    background-color: #F8F8F8;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-right: 2px;
+    padding: 0;
+    width: auto;
+}
+span.social_icons {
+    background-color: #F8F8F8;
+    display: inline-block;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0;
+    width: auto;
+}
+.social_icons li a, span.social_icons a {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    display: block;
+    float: left;
+    height: 40px;
+    margin: 0;
+    padding: 0;
+    text-indent: -9999px;
+    transition: all 0.3s ease 0s;
+    width: 40px;
+}
+.social_icons li.aim a, span.social_icons.aim a {
+    background: url("../images/social_icons/aim.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.aim a:hover, span.social_icons.aim a:hover {
+    background-color: #E95A00;
+}
+.social_icons li.apple a, span.social_icons.apple a {
+    background: url("../images/social_icons/apple.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.apple a:hover, span.social_icons.apple a:hover {
+    background-color: #606060;
+}
+.social_icons li.behance a, span.social_icons.behance a {
+    background: url("../images/social_icons/behance.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.behance a:hover, span.social_icons.behance a:hover {
+    background-color: #18A3FE;
+}
+.social_icons li.blogger a, span.social_icons.blogger a {
+    background: url("../images/social_icons/blogger.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.blogger a:hover, span.social_icons.blogger a:hover {
+    background-color: #FB913F;
+}
+.social_icons li.cargo a, span.social_icons.cargo a {
+    background: url("../images/social_icons/cargo.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.cargo a:hover, span.social_icons.cargo a:hover {
+    background-color: #00C462;
+}
+.social_icons li.delicious a, span.social_icons.delicious a {
+    background: url("../images/social_icons/delicious.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.delicious a:hover, span.social_icons.delicious a:hover {
+    background-color: #3274D1;
+}
+.social_icons li.deviantart a, span.social_icons.deviantart a {
+    background: url("../images/social_icons/deviantart.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.deviantart a:hover, span.social_icons.deviantart a:hover {
+    background-color: #D0DE21;
+}
+.social_icons li.digg a, span.social_icons.digg a {
+    background: url("../images/social_icons/digg.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.digg a:hover, span.social_icons.digg a:hover {
+    background-color: #2882C6;
+}
+.social_icons li.dopplr a, span.social_icons.dopplr a {
+    background: url("../images/social_icons/dopplr.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.dopplr a:hover, span.social_icons.dopplr a:hover {
+    background-color: #99CC66;
+}
+.social_icons li.dribbble a, span.social_icons.dribbble a {
+    background: url("../images/social_icons/dribbble.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.dribbble a:hover, span.social_icons.dribbble a:hover {
+    background-color: #EF5B92;
+}
+.social_icons li.ember a, span.social_icons.ember a {
+    background: url("../images/social_icons/ember.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.ember a:hover, span.social_icons.ember a:hover {
+    background-color: #FB9D00;
+}
+.social_icons li.evernote a, span.social_icons.evernote a {
+    background: url("../images/social_icons/evernote.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.evernote a:hover, span.social_icons.evernote a:hover {
+    background-color: #77BA2F;
+}
+.social_icons li.facebook a, span.social_icons.facebook a {
+    background: url("../images/social_icons/facebook.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.facebook a:hover, span.social_icons.facebook a:hover {
+    background-color: #3B5998;
+}
+.social_icons li.flickr a, span.social_icons.flickr a {
+    background: url("../images/social_icons/flickr.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.flickr a:hover, span.social_icons.flickr a:hover {
+    background-color: #F1628B;
+}
+.social_icons li.forrst a, span.social_icons.forrst a {
+    background: url("../images/social_icons/forrst.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.forrst a:hover, span.social_icons.forrst a:hover {
+    background-color: #5B9A68;
+}
+.social_icons li.github a, span.social_icons.github a {
+    background: url("../images/social_icons/github.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.github a:hover, span.social_icons.github a:hover {
+    background-color: #7292A2;
+}
+.social_icons li.google a, span.social_icons.google a {
+    background: url("../images/social_icons/google.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.google a:hover, span.social_icons.google a:hover {
+    background-color: #DD4B39;
+}
+.social_icons li.googleplus a, span.social_icons.googleplus a {
+    background: url("../images/social_icons/googleplus.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.googleplus a:hover, span.social_icons.googleplus a:hover {
+    background-color: #D94A39;
+}
+.social_icons li.gowalla a, span.social_icons.gowalla a {
+    background: url("../images/social_icons/gowalla.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.gowalla a:hover, span.social_icons.gowalla a:hover {
+    background-color: #FF920D;
+}
+.social_icons li.grooveshark a, span.social_icons.grooveshark a {
+    background: url("../images/social_icons/grooveshark.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.grooveshark a:hover, span.social_icons.grooveshark a:hover {
+    background-color: #F88E00;
+}
+.social_icons li.html5 a, span.social_icons.html5 a {
+    background: url("../images/social_icons/html5.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.html5 a:hover, span.social_icons.html5 a:hover {
+    background-color: #F3642C;
+}
+.social_icons li.icloud a, span.social_icons.icloud a {
+    background: url("../images/social_icons/icloud.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.icloud a:hover, span.social_icons.icloud a:hover {
+    background-color: #FB913F;
+}
+.social_icons li.lastfm a, span.social_icons.lastfm a {
+    background: url("../images/social_icons/lastfm.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.lastfm a:hover, span.social_icons.lastfm a:hover {
+    background-color: #D21309;
+}
+.social_icons li.linkedin a, span.social_icons.linkedin a {
+    background: url("../images/social_icons/linkedin.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.linkedin a:hover, span.social_icons.linkedin a:hover {
+    background-color: #71B2D0;
+}
+.social_icons li.metacafe a, span.social_icons.metacafe a {
+    background: url("../images/social_icons/metacafe.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.metacafe a:hover, span.social_icons.metacafe a:hover {
+    background-color: #EF4035;
+}
+.social_icons li.mixx a, span.social_icons.mixx a {
+    background: url("../images/social_icons/mixx.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.mixx a:hover, span.social_icons.mixx a:hover {
+    background-color: #D80330;
+}
+.social_icons li.myspace a, span.social_icons.myspace a {
+    background: url("../images/social_icons/myspace.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.myspace a:hover, span.social_icons.myspace a:hover {
+    background-color: #003398;
+}
+.social_icons li.netvibes a, span.social_icons.netvibes a {
+    background: url("../images/social_icons/netvibes.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.netvibes a:hover, span.social_icons.netvibes a:hover {
+    background-color: #629E61;
+}
+.social_icons li.newsvine a, span.social_icons.newsvine a {
+    background: url("../images/social_icons/newsvine.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.newsvine a:hover, span.social_icons.newsvine a:hover {
+    background-color: #5B965A;
+}
+.social_icons li.orkut a, span.social_icons.orkut a {
+    background: url("../images/social_icons/orkut.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.orkut a:hover, span.social_icons.orkut a:hover {
+    background-color: #ED2590;
+}
+.social_icons li.paypal a, span.social_icons.paypal a {
+    background: url("../images/social_icons/paypal.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.paypal a:hover, span.social_icons.paypal a:hover {
+    background-color: #32689A;
+}
+.social_icons li.picasa a, span.social_icons.picasa a {
+    background: url("../images/social_icons/picasa.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.picasa a:hover, span.social_icons.picasa a:hover {
+    background-color: #444444;
+}
+.social_icons li.pinterest a, span.social_icons.pinterest a {
+    background: url("../images/social_icons/pinterest.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.pinterest a:hover, span.social_icons.pinterest a:hover {
+    background-color: #CB2027;
+}
+.social_icons li.plurk a, span.social_icons.plurk a {
+    background: url("../images/social_icons/plurk.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.plurk a:hover, span.social_icons.plurk a:hover {
+    background-color: #F35B36;
+}
+.social_icons li.posterous a, span.social_icons.posterous a {
+    background: url("../images/social_icons/posterous.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.posterous a:hover, span.social_icons.posterous a:hover {
+    background-color: #F9D560;
+}
+.social_icons li.reddit a, span.social_icons.reddit a {
+    background: url("../images/social_icons/reddit.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.reddit a:hover, span.social_icons.reddit a:hover {
+    background-color: #BFD0E2;
+}
+.social_icons li.rss a, span.social_icons.rss a {
+    background: url("../images/social_icons/rss.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.rss a:hover, span.social_icons.rss a:hover {
+    background-color: #FE9900;
+}
+.social_icons li.skype a, span.social_icons.skype a {
+    background: url("../images/social_icons/skype.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.skype a:hover, span.social_icons.skype a:hover {
+    background-color: #18B7F1;
+}
+.social_icons li.stumbleupon a, span.social_icons.stumbleupon a {
+    background: url("../images/social_icons/stumbleupon.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.stumbleupon a:hover, span.social_icons.stumbleupon a:hover {
+    background-color: #EB4924;
+}
+.social_icons li.technorati a, span.social_icons.technorati a {
+    background: url("../images/social_icons/technorati.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.technorati a:hover, span.social_icons.technorati a:hover {
+    background-color: #7AC84F;
+}
+.social_icons li.tumblr a, span.social_icons.tumblr a {
+    background: url("../images/social_icons/tumblr.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.tumblr a:hover, span.social_icons.tumblr a:hover {
+    background-color: #3A5976;
+}
+.social_icons li.twitter a, span.social_icons.twitter a {
+    background: url("../images/social_icons/twitter.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.twitter a:hover, span.social_icons.twitter a:hover {
+    background-color: #48C4D2;
+}
+.social_icons li.vimeo a, span.social_icons.vimeo a {
+    background: url("../images/social_icons/vimeo.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.vimeo a:hover, span.social_icons.vimeo a:hover {
+    background-color: #62A0AD;
+}
+.social_icons li.wordpress a, span.social_icons.wordpress a {
+    background: url("../images/social_icons/wordpress.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.wordpress a:hover, span.social_icons.wordpress a:hover {
+    background-color: #464646;
+}
+.social_icons li.yahoo a, span.social_icons.yahoo a {
+    background: url("../images/social_icons/yahoo.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.yahoo a:hover, span.social_icons.yahoo a:hover {
+    background-color: #AB64BC;
+}
+.social_icons li.yelp a, span.social_icons.yelp a {
+    background: url("../images/social_icons/yelp.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.yelp a:hover, span.social_icons.yelp a:hover {
+    background-color: #C41200;
+}
+.social_icons li.youtube a, span.social_icons.youtube a {
+    background: url("../images/social_icons/youtube.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.youtube a:hover, span.social_icons.youtube a:hover {
+    background-color: #F45750;
+}
+.social_icons li.zerply a, span.social_icons.zerply a {
+    background: url("../images/social_icons/zerply.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.zerply a:hover, span.social_icons.zerply a:hover {
+    background-color: #8DB259;
+}
+.social_icons li.zootool a, span.social_icons.zootool a {
+    background: url("../images/social_icons/zootool.png") no-repeat scroll 0 0 transparent;
+}
+.social_icons li.zootool a:hover, span.social_icons.zootool a:hover {
+    background-color: #262626;
+}
+.social_icons li a:hover, span.social_icons a:hover {
+    background-position: 0 -40px;
+}
